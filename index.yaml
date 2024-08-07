@@ -11,7 +11,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 3.5.13
-    created: "2024-08-05T21:48:00.165352787+05:00"
+    created: "2024-08-07T20:13:03.566820311+05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -21,7 +21,7 @@ entries:
     description: etcd is a distributed key-value store designed to securely store
       data across a cluster. etcd is widely used in production on account of its reliability,
       fault-tolerance and ease of use.
-    digest: 2eb597ef9bb6c257b597dc6b4e2080ce81744f9c53b4bdee63bcad54ac96e7e4
+    digest: 7a8dd27dd6f0a85905efaf731bbbf0be9755250d2061109e9a6818aaa38d99aa
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
     keywords:
@@ -42,7 +42,7 @@ entries:
   gke-templates:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-05T21:48:00.166014033+05:00"
+    created: "2024-08-07T20:13:03.567778642+05:00"
     description: A Helm chart for Kubernetes
     digest: 8215b5096233a1547d19c071b6c9ca2b85c992c6061c6e7c35fca28b2b3059d9
     name: gke-templates
@@ -53,7 +53,7 @@ entries:
   keda:
   - apiVersion: v2
     appVersion: 2.14.0
-    created: "2024-08-05T21:48:00.175405399+05:00"
+    created: "2024-08-07T20:13:03.577339895+05:00"
     description: Event-based autoscaler for workloads on Kubernetes
     digest: 7cfafa666cb6cb7bce30525da7271360df29fc02de87215e113d0c7574d39487
     home: https://github.com/kedacore/keda
@@ -91,7 +91,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-08-05T21:48:00.188480291+05:00"
+    created: "2024-08-07T20:13:03.586837829+05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -101,7 +101,7 @@ entries:
     description: Redis(R) is an open source, advanced key-value store. It is often
       referred to as a data structure server since keys can contain strings, hashes,
       lists, sets and sorted sets.
-    digest: 5262691c27101472c716ea89f535594a0b1cdd6e221533d71bf5bc3568e29a6b
+    digest: 5de9ee0d957b40d4973a10e2aa4452f9f16b8a32d2736ab5cd9f8f62c732dd73
     home: https://bitnami.com
     icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
     keywords:
@@ -117,4 +117,4 @@ entries:
     urls:
     - https://aretec-inc.github.io/disearch-helm/redis-19.1.0.tgz
     version: 19.1.0
-generated: "2024-08-05T21:48:00.156945428+05:00"
+generated: "2024-08-07T20:13:03.560610839+05:00"
