@@ -11,7 +11,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 3.5.13
-    created: "2024-08-07T20:13:03.566820311+05:00"
+    created: "2024-08-20T02:17:34.430121413+05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -42,7 +42,7 @@ entries:
   gke-templates:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-07T20:13:03.567778642+05:00"
+    created: "2024-08-20T02:17:34.43184401+05:00"
     description: A Helm chart for Kubernetes
     digest: 8215b5096233a1547d19c071b6c9ca2b85c992c6061c6e7c35fca28b2b3059d9
     name: gke-templates
@@ -53,9 +53,9 @@ entries:
   keda:
   - apiVersion: v2
     appVersion: 2.14.0
-    created: "2024-08-07T20:13:03.577339895+05:00"
+    created: "2024-08-20T02:17:34.440273657+05:00"
     description: Event-based autoscaler for workloads on Kubernetes
-    digest: 7cfafa666cb6cb7bce30525da7271360df29fc02de87215e113d0c7574d39487
+    digest: a65a3a343d8a711a85b846435bdec9de4ae1b6984dbc71a5c22b026425c5b374
     home: https://github.com/kedacore/keda
     icon: https://raw.githubusercontent.com/kedacore/keda/main/images/keda-logo-500x500-white.png
     kubeVersion: '>=v1.23.0-0'
@@ -91,7 +91,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.2.4
-    created: "2024-08-07T20:13:03.586837829+05:00"
+    created: "2024-08-20T02:17:34.451306776+05:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -117,4 +117,4 @@ entries:
     urls:
     - https://aretec-inc.github.io/disearch-helm/redis-19.1.0.tgz
     version: 19.1.0
-generated: "2024-08-07T20:13:03.560610839+05:00"
+generated: "2024-08-20T02:17:34.424243109+05:00"
